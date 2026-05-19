@@ -4,7 +4,7 @@ public class Carteira {
 
     public Carteira(String dono) {
         this.dono = dono;
-        this.saldoBitcoin = 0.0;
+        this.saldoBitcoin = 0.001;
     }
 
     public void depositar(double qtd) {
